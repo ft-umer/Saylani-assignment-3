@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color:unset;
+    text-decoration: none;
+}
+
+button{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.container{
+    padding: 1% 3%;
+}
+
+.content{
+    background-color: #80808014;
+}
+
+.section-1{
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+/* ==== Header ==== */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#image-logo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#logo-name{
+    font-size:25px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+#menu-list li{
+    display: inline;
+    padding-left: 65px;
+    color: #0000008f;
+}
+
+#menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#menu-list li button{
+    padding: 10px 15px;
+    background-color: #F44336;
+    border: 0;
+}
+
+#menu-list li #menu-img{
+    width: 30px;
+}
+/* ==== End Header ==== */
+
+/* ==== Intro ==== */
+.intro{
+    display: flex;
+    padding: 75px;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.intro .intro-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro .intro-left p{
+    width: 84%;
+}
+
+.intro .intro-right{
+    display: flex;
+}
+
+.intro .intro-left .intro-left-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+}
+
+.buttons button{
+    padding: 15px 25px;
+    background-color: #F44336;
+    border: 0;
+    margin-right: 10px;
+}
+/* ==== End Intro ==== */
+
+/* ==== Section-2 ==== */
+.center{
+    text-align: center;
+}
+
+.cards{
+    margin: 50px 0;
+}
+
+.card{
+    width: 27%;
+    display: inline-block;
+    border: 1px solid #80808061;
+    padding: 15px;
+    padding-bottom: 5px;
+    padding-top: 60px;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.para{
+    color: #000000bf;
+}
+
+
+.card .orange{
+    color: orangered;
+}
+
+#service button{
+    padding: 15px 25px;
+    border: 0;
+    margin-right: 10px;
+}
+/* ==== End Section-2 ==== */
+/* ==== Section-3 ==== */
+.fruit-desc{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+    margin-right: 75px;
+}
+
+.fruit-desc .fruit-detail{
+    width: 61%;
+}
+
+.fruit-desc .fruit-detail .heading{
+    font-weight: 500;
+}
+
+#fruit button{
+    padding: 12px 35px;
+    border: 0;
+    margin-right: 10px;
+}
+/* ==== End Section-3 ==== */
+/* ==== Section-4 ==== */
+.test-img{
+    font-weight: 500;
+}
+
+.test-para{
+    text-shadow: 0 0 1px grey;
+}
+
+.section-4 {
+    margin: 60px 0;
+}
+/* ==== End Section-4 ==== */
+/* ==== Section-5 ==== */
+.section-5 input{
+    border: none;
+    border-bottom: 1px black solid;
+    width: 100%;
+    margin: 15px 0px;
+    font-size: unset;
+    font-family: 'Poppins', sans-serif ;
+}
+
+.section-5 button{
+    padding: 10px 40px;
+    background-color: #F44336;
+    border: 0;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+}
+
+#contact .left{
+    width: 50%;
+    float: left;
+}
+
+#contact .right{
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-5{
+    margin: 70px 0;
+}
+
+/* ==== end Section-5 ==== */
+/* ==== Footer ====  */
+
+footer{
+    margin-bottom: 65px;
+}
+
+footer table{
+    width: 80%;
+}
+
+footer table th{
+    font-weight: 500;
+    text-shadow: 0 0 1px #040404;
+    font-size: 20px;
+}
+
+footer table td{
+    text-shadow: 0 0 10px grey;
+}
+
+footer table thead{
+    text-align: left;
+}
+
+footer h1{
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 0 0 10px grey;
+    margin-top: 0;
+}
+
+footer .section-last{
+    display: flex;
+}
+
+footer .h-2nd{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer input{
+    width: 72%;
+    font-size: 20px;
+}
+
+footer button{
+    padding: 10px 40px;
+    background-color: #ff5346;
+    border: 0;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.last{
+    background-color: #80808040;
+    padding: 5px;
+}
